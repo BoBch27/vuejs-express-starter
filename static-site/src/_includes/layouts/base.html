@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include "sections/basehead.html" %}
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header>
+
+  </header>
+  
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
